@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taxi Service</title>
+  {% load static %}
+</head>
+<body>
+  <div>
+    {% include "includes/sidebar.html" %}
+  </div>
+  <div>
+    {% block content %}
+    {% endblock %}
+  </div>
+</body>
+</html>
